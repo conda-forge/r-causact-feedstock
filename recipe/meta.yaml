@@ -1,4 +1,4 @@
-{% set version = "0.5.5" %}
+{% set version = "0.5.7" %}
 
 {% set posix = 'm2-' if win else '' %}
 
@@ -10,10 +10,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/causact_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/causact/causact_{{ version }}.tar.gz
-  sha256: abacb03f18ca64bfb700d55bc35d49cf18560ffd170157fa701a057bc816c369
+  sha256: 26db1c99b2b5f1fe91b218ea5b45f9cd2f27f475f86e20ac2749a49f9e18d5d8
 
 build:
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
