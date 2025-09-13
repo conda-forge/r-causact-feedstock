@@ -1,4 +1,4 @@
-{% set version = "0.5.8" %}
+{% set version = "0.6.0" %}
 
 {% set posix = 'm2-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/causact_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/causact/causact_{{ version }}.tar.gz
-  sha256: cc96ff2e04ebd81e1690c31593063c5a784f6d1d609e2dc058b95f649b29a39f
+  sha256: de5de671cc1a6b7af93066b4330c5e06bd9f75e734e8b0d278797a7757e58b3f
 
 build:
   number: 0
